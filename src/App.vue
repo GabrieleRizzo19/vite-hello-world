@@ -1,31 +1,45 @@
-<script >
+<script>
+
+// Qui importiamo i componenti che verranno usati
+// import [NOME] from [PATH]
+import headerBar from './components/headerBar.vue';
+import mainContent from './components/mainContent.vue';
+import footerContent from './components/footerContent.vue';
+
+
+
+// Qui definiamo l'oggetto che conterrà la lista dei componenti importati, che verranno usati
+export default{
+  components: {
+    headerBar,
+    mainContent,
+    footerContent
+  }
+}
 
 </script>
 
 <template>
 
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  
+  <header>
+    <!-- Qui ho usato il componente HeaderBar -->
+    <headerBar />
+  </header>
+
+  <main>
+    <!-- Qui ho usato il componente mainComponent -->
+    <mainContent />
+  </main>
+
+  <footer>
+    <!-- Qui ho usato il componente mainComponent -->
+    <footerContent />
+  </footer>
+
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+
+
+
 </style>
