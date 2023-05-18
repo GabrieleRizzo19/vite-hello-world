@@ -14,15 +14,13 @@ header{
   height: 100px;
   text-align: center;
   background-color: green;
-  
-
 }
 
 main{
   height: calc(100vh - 200px);
   text-align: center;
   background-color: red;
-
+  flex-wrap: wrap;
 }
 
 footer{

@@ -7,17 +7,20 @@
 <template>
 
     <div>
-        <h2>QUESTO È IL MAIN</h2>
-        <img src="/vite.svg" alt="LOGO VITE">
+        <h2>QUESTO È IL JUMBOTRON</h2>
+        <img src="../assets/img/04.webp" alt="LOGO VITE">
     </div>
 
 </template>
 
 <style scoped>
 
+    div{
+        width: 100%;
+        overflow: hidden;
+    }
     img{
-        width: 300px;
-        height: 300px;
+        width: 100%;
     }
 
 </style>

@@ -7,6 +7,6 @@
 
 <template>
     <div>
-        <h1>QUESTO È IL MIO HEADER</h1>
+        <h1>La mia prima app con Vite!</h1>
     </div>
 </template>
